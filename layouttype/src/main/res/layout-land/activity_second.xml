@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Test Text"/>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/buttonOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Первая кнопка"/>
+
+        <Button
+            android:id="@+id/buttonTwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Вторая кнопка"/>
+
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/buttonThree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Третья кнопка"/>
+
+        <Button
+            android:id="@+id/buttonFour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Четвертая кнопка"/>
+
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/buttonFive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Пятая кнопка"/>
+
+        <Button
+            android:id="@+id/buttonSix"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Шестая кнопка"/>
+
+    </TableRow>
+</TableLayout>
